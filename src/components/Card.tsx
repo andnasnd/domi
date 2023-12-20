@@ -211,6 +211,9 @@ export default function Card({ showVideo }: CardProps) {
                 <img src="dom0.jpg" alt="" />
               </div>
               <div>
+                <img src="dom17.jpg" alt="" />
+              </div>
+              <div>
                 <img src="dom2.jpg" alt="" />
               </div>
               <div>
