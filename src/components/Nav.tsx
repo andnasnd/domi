@@ -7,7 +7,7 @@ export default function Nav() {
         <div className="flex justify-center">
           <a
             className={`flex items-center justify-center rounded-lg bg-yellow-300 px-8 py-2.5 text-white hover:bg-yellow-400 focus:ring-[#ff084f] ${boxSize}`}
-            href="https://solscan.io/account/"
+            href="https://solscan.io/token/3cy8N3asQY3WKBWaeBY3MzBQzbD4Mpy1nyGYoYKdNioA#txs"
           >
             <img
               className="h-6 w-6"

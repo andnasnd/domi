@@ -16,7 +16,7 @@ type CardProps = {
 export default function Card({ showVideo }: CardProps) {
 
   const [isCopied, setCopied] = useClipboard(
-    '8QjEab1HptdTubZEdDgyNi3wbhfBK7ufdQkcVmcE9NfS',
+    '3cy8N3asQY3WKBWaeBY3MzBQzbD4Mpy1nyGYoYKdNioA',
     {
       successDuration: 2500,
     },
@@ -73,7 +73,7 @@ export default function Card({ showVideo }: CardProps) {
                 }}
                 className="absolute right-8 top-24 mt-2 mr-2 w-12 z-10" src="logo.svg" alt="tg" />
             </a>
-          <a href="https://solscan.io/account/">
+          <a href="https://solscan.io/token/3cy8N3asQY3WKBWaeBY3MzBQzbD4Mpy1nyGYoYKdNioA#txs">
               <img
                 style={{
                   animation: "jiggle1 8s ease-in-out infinite", // Apply the animation inline
@@ -99,7 +99,7 @@ export default function Card({ showVideo }: CardProps) {
             {/* Contents of the transparent div */}
             <h5 className="mb-2 text-8xl font-serif font-bold text-yellow-300">$EXODIA</h5>
             <div className="mt-5 text-md font-bold text-yellow-300 overflow-hidden">
-              <div className="p-2">8QjEab1HptdubZEdDgyNi3wbhfBK7ufdQkcVmcE9NfS</div>
+              <div className="p-2">3cy8N3asQY3WKBWaeBY3MzBQzbD4Mpy1nyGYoYKdNioA</div>
             </div>    
         <p className="mb-5 text-base text-orange-400 sm:text-lg"></p>
             <div className="justify-center space-y-4 sm:flex sm:space-x-4 sm:space-y-0">
