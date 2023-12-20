@@ -55,7 +55,7 @@ export default function Card({ showVideo }: CardProps) {
           className="py-1 text-xl text-white bg-yellow-300 font-bold absolute"
           >
           <a href="https://birdeye.so">
-            $DOM IS LIVE &nbsp; &nbsp; &nbsp;
+            $EXODIA IS LIVE &nbsp; &nbsp; &nbsp;
           </a>
         </Marquee>
         <div>
@@ -97,9 +97,9 @@ export default function Card({ showVideo }: CardProps) {
           <div className="absolute top-[40%] scale-[80%] md:scale-[160%] rounded-3xl text-center z-10" style={{ overflow: 'hidden' }}>
           <div className="bg-black bg-opacity-40 rounded-lg py-8 overflow-x-hidden">
             {/* Contents of the transparent div */}
-            <h5 className="mb-2 text-8xl font-serif font-bold text-yellow-300">$DOM</h5>
+            <h5 className="mb-2 text-8xl font-serif font-bold text-yellow-300">$EXODIA</h5>
             <div className="mt-5 text-md font-bold text-yellow-300 overflow-hidden">
-              <div className="p-2">8QjEab1HptdTubZEdDgyNi3wbhfBK7ufdQkcVmcE9NfS</div>
+              <div className="p-2">8QjEab1HptdubZEdDgyNi3wbhfBK7ufdQkcVmcE9NfS</div>
             </div>    
         <p className="mb-5 text-base text-orange-400 sm:text-lg"></p>
             <div className="justify-center space-y-4 sm:flex sm:space-x-4 sm:space-y-0">
@@ -111,7 +111,7 @@ export default function Card({ showVideo }: CardProps) {
                     >
                       <h1 className="w-8 text-2xl">✅</h1>
                       <div className="mx-4">
-                        <div className="mb-1 text-xs">$DOM</div>
+                        <div className="mb-1 text-xs">$EXODIA</div>
                         <div className="-mt-1 font-sans text-sm font-semibold">
                           Contract
                         </div>
@@ -128,7 +128,7 @@ export default function Card({ showVideo }: CardProps) {
                         alt="link icon"
                       />
                       <div className="mx-4">
-                        <div className="mb-1 text-xs font-serif">$DOM</div>
+                        <div className="mb-1 text-xs">$EXODIA</div>
                         <div className="-mt-1 font-sans text-sm font-semibold">
                           Contract
                         </div>
@@ -192,12 +192,12 @@ export default function Card({ showVideo }: CardProps) {
       </div>
 <div className="bg-black pb-48 text-center pt-48 text-6xl font-bold text-yellow-300 z-1000">
   <h1 className="text-5xl mb-4 mt-24">
-    Total Supply: <span className="text-yellow-200 z-1000">690,000,000 </span> <span className="font-serif">$DOM</span>
+    Total Supply: <span className="text-yellow-200 z-1000">690,000,000 </span> <span className="font-serif">$EXODIA</span>
   </h1>
   <br />
   <h1 className="text-3xl mx-auto font-bold bg-black">
-    Dom Lopez Coin brought to you by Dominic Lopez. 
-    <span className="text-yellow-200 text-4xl"> Real Hedge Fund shit.</span>
+    Dom Lopez Coin brought to you by Dominic Lopez. <br/> <br/>
+    <span className="text-yellow-200 text-5xl"> Real Hedge Fund shit.</span>
   </h1>
 </div>
 
@@ -206,7 +206,7 @@ export default function Card({ showVideo }: CardProps) {
       </div>
         <div className="flex pt-[5%] flex-col-reverse md:flex-row bg-black">
           <div className="flex flex-col justify-center items-center">
-            <Carousel autoPlay infiniteLoop  className="w-[25%] mx-auto">
+            <Carousel autoPlay infiniteLoop  className="w-[50%] mx-auto">
               <div>
                 <img src="dom0.jpg" alt="" />
               </div>
