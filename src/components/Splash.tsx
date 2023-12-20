@@ -66,13 +66,7 @@ export default function SplashScreen({ onClick }: Props) {
             className="absolute inset-0 z-10 md:mt-[10%] md:ml-[25%] flex flex-col items-center justify-center"
           >
             <button
-              className="font-serif my-2 rounded-xl text-5xl font-extrabold text-[#ffe100] transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
-              onClick={() => setValue(value + 1)}
-            >
-              Buy $DOM
-            </button>
-            <button
-              className="font-serif my-2 rounded-xl text-7xl font-extrabold text-[#ffe100] transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 grow-shrink-animation"
+              className="font-serif my-2 pt-36 rounded-xl text-7xl font-extrabold text-[#ffe100] transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 grow-shrink-animation"
               onClick={() => setValue(value + 1)}
             >
               Enter Site
