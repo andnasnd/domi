@@ -24,7 +24,7 @@ export default function Card({ showVideo }: CardProps) {
   return (
     <>
       <div min-h-screen>
-      <div className="bg-[url('/jgg.jpg')] h-screen bg-cover relative w-screen">
+      <div className="bg-[url('/jgg.jpg')] h-screen bg-cover relative w-screen z-0">
       {showVideo && (
         <video
           autoPlay
@@ -64,28 +64,28 @@ export default function Card({ showVideo }: CardProps) {
                 style={{
                   animation: "jiggle1 8s ease-in-out infinite", // Apply the animation inline
                 }}
-                className="absolute left-4 top-24 w-[72px]" src="bird.png" alt="tg" />
+                className="absolute left-4 top-24 w-[72px] z-10" src="bird.png" alt="tg" />
             </a>
           <a href="https://twitter.com/ExodiaBTC">
               <img
                 style={{
                   animation: "jiggle1 8s ease-in-out infinite", // Apply the animation inline
                 }}
-                className="absolute right-8 top-24 mt-2 mr-2 w-12" src="logo.svg" alt="tg" />
+                className="absolute right-8 top-24 mt-2 mr-2 w-12 z-10" src="logo.svg" alt="tg" />
             </a>
           <a href="https://solscan.io/account/">
               <img
                 style={{
                   animation: "jiggle1 8s ease-in-out infinite", // Apply the animation inline
                 }}
-                className="absolute left-52 top-24 w-[60px]" src="solscan.png" alt="solscan" />
+                className="absolute left-52 top-24 w-[60px] z-10" src="solscan.png" alt="solscan" />
             </a>
             <a href="https://t.me/domlopez">
               <img
                 style={{
                   animation: "jiggle1 8s ease-in-out infinite", // Apply the animation inline
                 }}
-                className="absolute left-28 w-16 top-24" src="tg-logo.svg" alt="tg" />
+                className="absolute left-28 w-16 top-24 z-10" src="tg-logo.svg" alt="tg" />
             </a>
         </div>
         <div className="flex flex-col items-center justify-center">
