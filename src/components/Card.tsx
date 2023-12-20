@@ -54,12 +54,12 @@ export default function Card({ showVideo }: CardProps) {
           direction="right"
           className="py-1 text-xl text-white bg-yellow-300 font-bold absolute"
           >
-          <a href="https://birdeye.so">
+          <a href="https://birdeye.so/token/3cy8N3asQY3WKBWaeBY3MzBQzbD4Mpy1nyGYoYKdNioA?chain=solana">
             $EXODIA IS LIVE &nbsp; &nbsp; &nbsp;
           </a>
         </Marquee>
         <div>
-          <a href="https://birdeye.so">
+          <a href="https://birdeye.so/token/3cy8N3asQY3WKBWaeBY3MzBQzbD4Mpy1nyGYoYKdNioA?chain=solana">
               <img
                 style={{
                   animation: "jiggle1 8s ease-in-out infinite", // Apply the animation inline

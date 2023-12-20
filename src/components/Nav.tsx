@@ -17,7 +17,7 @@ export default function Nav() {
           </a>
           <a
             className={`hover-bg-pink-300 flex items-center justify-center rounded-lg bg-yellow-300 px-8 py-2.5 text-white hover:bg-yellow-400 focus:outline-none focus:ring-[#ff084f] ${boxSize}`}
-            href="https://birdeye.so/"
+            href="https://birdeye.so/token/3cy8N3asQY3WKBWaeBY3MzBQzbD4Mpy1nyGYoYKdNioA?chain=solana"
           >
             <img
               className="h-8 w-9"
